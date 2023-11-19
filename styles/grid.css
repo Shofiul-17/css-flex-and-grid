@@ -1,0 +1,200 @@
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* Two columns 80px each column */
+    /* grid-template-columns: 80px 80px; */
+}
+
+
+/* ============================ Same output different way to code ===================== */
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* Three columns 80px each column  */
+    /* grid-template-columns: 80px 80px 80px; */
+}
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 3 columns 80px each column */
+    /* grid-template-columns: repeat(3, 80px); */
+}
+/* ================================================================================= */
+
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 4 columns 80px each column */
+    /* grid-template-columns: repeat(4, 80px); */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 5 columns 80px each column */
+    /* grid-template-columns: repeat(5, 80px); */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 4 columns - 1st column will be 100px, 2nd & 3rd columns will be 80px, 4th column will be 250px */
+    /* grid-template-columns: 100px repeat(2, 80px) 250px; */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 2 columns 80px each column */
+    /* grid-template-columns: repeat(2, 80px); */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 3 columns - 1st column will be 100px, 2nd & 3rd columns will be 80px */
+    /* grid-template-columns: 100px 80px 80px; */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 4 columns 80px each column */
+    /* grid-template-columns: repeat(4, 80px); */
+}
+
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 5 columns 80px each column */
+    /* grid-template-columns: repeat(5, 80px); */
+}
+
+
+/* ============================== Grid rows (Start) ============================= */
+/* ============================ Same output different way to code ===================== */
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 3 columns - 1st column will be 100px, 2nd & 3rd columns will be 80px */
+    /* grid-template-columns: 100px 80px 80px; */
+    /* 3 rows - 1st row will be 200px, 2nd & 3rd rows will be 80px */
+    /* grid-template-rows: 200px 80px 80px; */
+}
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 3 columns - 1st column will be 100px, 2nd & 3rd columns will be 80px */
+    /* grid-template-columns: 100px 80px 80px; */
+    /* 3 rows - 1st row will be 200px, 2nd & 3rd rows will be 80px */
+    /* grid-template-rows: 200px repeat(2, 80px); */
+}
+.container {
+    /* display: grid;
+    border: 2px solid; */
+
+    /* 3 columns - 1st column will be 100px, 2nd & 3rd columns will be 80px */
+    /* grid-template-columns: 100px repeat(2, 80px); */
+    /* 3 rows - 1st row will be 200px, 2nd & 3rd rows will be 80px */
+    /* grid-template-rows: 200px repeat(2, 80px); */
+}
+/* ====================================== (End) =================================== */
+
+
+
+
+/* ============================== Grid column span (Start) ============================= */
+.container {
+    /* display: grid;
+    border: 2px solid; */
+    
+    /* 3 columns 80px each column */
+    /* grid-template-columns: repeat(3, 80px); */
+}
+.div-1 {
+    /* background-color: blueviolet; */
+    /* Grid span column - 1st column start from grid line 1 and end column grid line 3 */
+    /* grid-column: 1 / 3; */
+}
+/* =========================================== End =========================================== */
+
+
+
+/* ============================== Grid row span (Start) ============================= */
+.container {
+    /* display: grid;
+    border: 2px solid; */
+    
+    /* 3 columns 80px each column */
+    /* grid-template-columns: repeat(3, 80px); */
+}
+.div-1 {
+    /* background-color: blueviolet; */
+    /* Grid span column - 1st column start from grid line 1 and end column grid line 3 */
+    /* grid-column: 1 / 3; */
+    /* Grid span column - 1st row start from grid line 1 and end row grid line 3 */
+    /* grid-row: 1 / 3;  */
+}
+/* =========================================== End ================================== */
+
+
+
+/* ============================== Grid column span (Start) ============================= */
+.container {
+    /* display: grid;
+    border: 2px solid; */
+    
+    /* 3 columns 80px each column */
+    /* grid-template-columns: repeat(4, 80px); */
+}
+.div-1 {
+    /* background-color: blueviolet; */
+    /* Grid span column - 1st column start from grid line 1 and end column grid line -1 */
+    /* grid-column: 1 / -1; */
+    
+}
+/* =========================================== */
+.container {
+    display: grid;
+    border: 2px solid;
+    
+    /* 3 columns 80px each column */
+    grid-template-columns: repeat(5, 80px);
+}
+.div-1 {
+    /* background-color: blueviolet; */
+    /* Grid span column - 1st column start from grid line 1 and end column grid line -1 */
+    grid-column: 1 / -1;
+}
+/* =========================================== End ================================== */
+
+
+
+
+
+
+.box{
+    /* width: 75px; */
+    height: 75px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+}
+
+.hide{
+    display: none;
+}
